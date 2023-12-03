@@ -46,19 +46,16 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	for {
 		fmt.Print("ask: ")
-		
 		input, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Println("Hata:", err)
 			return
 		}
 		question := strings.ToLower(strings.TrimSpace(input))
-
 		if question == "exit" {
 			fmt.Println("see u later.")
 			break
 		}
-
 		response := getRandomResponse()
 		fmt.Printf("answer: %s\n", response)
 	}
