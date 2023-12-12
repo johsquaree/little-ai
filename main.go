@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/johsquaree/little-ai/ai"
+	"github.com/johsquaree/little-ai/little-ai"
 )
 
 func main() {
