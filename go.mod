@@ -1,3 +1,4 @@
-module github.com/johsquaree/goo
+module 	github.com/johsquaree/little-ai
+
 
 go 1.21.0
